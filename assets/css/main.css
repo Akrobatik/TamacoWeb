@@ -2393,11 +2393,11 @@
 	}
 
 	#banner {
-		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-image: url('grise.jpeg');
+		height: auto;
+		background-size: cover !important;
+		background-repeat: no-repeat;
+		width: 100%;
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
@@ -3169,3 +3169,12 @@
 			}
 
 	}
+
+.logo {
+	height: auto;
+	width: 60px;
+}
+@media screen and (max-width: 736px) {
+	#banner {
+	}
+}
